@@ -1,15 +1,15 @@
 {
-  "name": "route-decorators",
-  "version": "0.2.2",
+  "name": "routlify",
+  "version": "0.0.1",
   "description": "ES7 decorators that simplify Koa and Express route creation",
   "main": "lib/decorators.js",
   "scripts": {
     "prepublish": "rimraf lib && babel src --out-dir lib",
-    "test": "mocha --compilers js:babel/register 'test/*.js'"
+    "test": "mocha --compilers js:babel/register test/*.js"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/buunguyen/route-decorators.git"
+    "url": "git+https://github.com/amurdock/route-decorators.git"
   },
   "keywords": [
     "es6",
@@ -25,9 +25,9 @@
   "author": "Buu Nguyen <buunguyen@gmail.com> (https://github.com/buunguyen)",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/buunguyen/route-decorators/issues"
+    "url": "https://github.com/amurdock/route-decorators/issues"
   },
-  "homepage": "https://github.com/buunguyen/route-decorators#readme",
+  "homepage": "https://github.com/amurdock/route-decorators#readme",
   "devDependencies": {
     "babel": "^5.8.34",
     "chai": "^3.4.1",
